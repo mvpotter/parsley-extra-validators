@@ -8,20 +8,20 @@ window.ParsleyValidator.addValidator('gt',
 // Greater than or equal to validator
 window.ParsleyValidator.addValidator('ge', 
 	function (value, requirement) {
-        return parseFloat(value) >= parseFloat((requirement).val());
+        return parseFloat(value) >= parseFloat($(requirement).val());
     }, 32)
     .addMessage('en', 'ge', 'This value should be greater or equal');
 
 // Less than validator
 window.ParsleyValidator.addValidator('lt', 
 	function (value, requirement) {
-        return parseFloat(value) < parseFloat((requirement).val());
+        return parseFloat(value) < parseFloat($(requirement).val());
     }, 32)
     .addMessage('en', 'lt', 'This value should be less');
 
 // Less than or equal to validator
 window.ParsleyValidator.addValidator('le', 
 	function (value, requirement) {
-        return parseFloat(value) <= parseFloat((requirement).val());
+        return parseFloat(value) <= parseFloat($(requirement).val());
     }, 32)
     .addMessage('en', 'le', 'This value should be less or equal');
