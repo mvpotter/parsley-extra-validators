@@ -8,9 +8,12 @@ Extra validators for ParsleyJs framework
 Add script with validators to your page and use required validators as parsley's ones (see [docs](http://parsleyjs.org/doc/)): 
 
 ```html
+<script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="parsley.min.js"></script>
 <script type="text/javascript" src="parsley-fields-comparison-validators.js"></script>
 ```
+
+Simple example could be found [here](http://mvpotter.github.io/parsley-extra-validators/)
 
 parsley-fields-comparison-validators
 ------------------------------------
