@@ -26,8 +26,3 @@ Contains validators for comparing numeric fields' values. Unfortunately, default
 |Greater than or equal to| `data-parsley-ge="#anotherfield"`|Validates that the value is greater than or equal to another field's one
 |Less than               | `data-parsley-lt="#anotherfield"`|Validates that the value is less than another field's one
 |Less than or equals to  | `data-parsley-le="#anotherfield"`|Validates that the value is less than or equal to another field's one
-
-
-## TODO
-
-Add usage examples
