@@ -9,7 +9,7 @@ Add script with validators to your page and use required validators as parsley's
 
 ```html
 <script type="text/javascript" src="parsley.min.js"></script>
-<script type="text/javascript" src="parsley-comparison-validators.js"></script>
+<script type="text/javascript" src="parsley-fields-comparison-validators.js"></script>
 ```
 
 parsley-fields-comparison-validators
