@@ -28,4 +28,4 @@ window.ParsleyValidator.addValidator('le',
     	var bigger_number = $(requirement).val();
         return value <= bigger_number;
     }, 32)
-    .addMessage('en', 'lt', 'This value should be less or equal');
+    .addMessage('en', 'le', 'This value should be less or equal');
