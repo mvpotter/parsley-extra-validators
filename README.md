@@ -1,7 +1,7 @@
 parsley-extra-validators
 ========================
 
-Extra validators for ParsleyJs framework
+Extra validators for [ParsleyJs framework](https://github.com/guillaumepotier/Parsley.js)
 
 ## Usage
 
