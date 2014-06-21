@@ -26,7 +26,7 @@ Simple example could be found [here](http://mvpotter.github.io/parsley-extra-val
 parsley-fields-comparison-validators
 ------------------------------------
 
-Contains validators for comparing numeric fields' values. Unfortunately, default implementation contains only `data-parsley-equalto` tag to check fields' values equality. The library has validators to compare numeric fields' values and contains the following ones:
+Contains validators for comparing fields' values. Unfortunately, default implementation contains only `data-parsley-equalto` tag to check fields' values equality. The library has validators to compare fields' values and contains the following ones:
 
 |Name                    |API                                       | Description |
 |:-----------------------|:-----------------------------------------|:------------|
