@@ -11,6 +11,14 @@ Add script with validators to your page and use required validators as parsley's
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="parsley.min.js"></script>
 <script type="text/javascript" src="parsley-fields-comparison-validators.js"></script>
+...
+<form data-parsley-validate>
+		<h3>Speed range</h3>
+		<label for="min">Min</label>
+		<input id="min" type="text"/>
+		<label for="max">Max</label>
+		<input id="max" type="text" data-parsley-gt="#min" />
+</form>
 ```
 
 Simple example could be found [here](http://mvpotter.github.io/parsley-extra-validators/)
