@@ -1,3 +1,7 @@
+# ATTENTION
+
+The [library](https://github.com/guillaumepotier/Parsley.js/blob/master/src/extra/validator/comparison.js) is a part of [ParsleyJs Project](https://github.com/guillaumepotier/Parsley.js) now. Thus, it will no longer be supported.
+
 parsley-extra-validators
 ========================
 
