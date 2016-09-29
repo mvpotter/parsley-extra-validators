@@ -25,8 +25,6 @@ Add script with validators to your page and use required validators as parsley's
 </form>
 ```
 
-Simple example could be found [here](http://mvpotter.github.io/parsley-extra-validators/)
-
 parsley-fields-comparison-validators
 ------------------------------------
 
